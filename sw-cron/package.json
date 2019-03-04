@@ -1,0 +1,25 @@
+{
+  "name": "speedweather",
+  "version": "1.0.0",
+  "description": "Using two apis two graph any correlation between speed and temperature",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speed",
+    "test",
+    "weather"
+  ],
+  "author": "Seth Welch",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "fast-speedtest-api": "^0.3.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}

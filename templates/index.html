@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Data</title>
+    <link rel="stylesheet" href="static/styles/app.css">
+    <link rel="shortcut icon" href="static/favicon.ico" />
+</head>
+
+<body>
+    <div style="width: 800px; height: 800px; text-align: center" class="center">
+        <canvas id="myChart" width="800" height="800"></canvas>
+
+        <select id="selectOption" onchange="selectChange(this)" name="weather" class="center">
+          <option value="clouds">Clouds</option>
+          <option value="humidity">Humidity</option>
+          <option value="pressure">Pressure</option>
+          <option value="temperature" selected="selected">Temperature</option>
+          <option value="time">Time</option>
+          <option value="visibility">Visibility</option>
+          <option value="wind">Wind</option>
+      </select>
+    </div>
+
+    <script src="static/js/vendor/jquery.js"></script>
+    <script src="static/js/vendor/Chart.bundle.min.js"></script>
+    <script src="static/js/index.js"></script>
+</body>
+
+</html>
